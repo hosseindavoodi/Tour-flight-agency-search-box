@@ -1,0 +1,498 @@
+
+
+body {
+  font-family:Arial,Helvetica;
+  margin:0;
+  padding:0;
+  font-size:14px;
+	background: #000000
+}
+
+p {
+  text-align:justify;
+	font-size: 13px;
+	color: #E3E3E3;
+}
+
+a:link {
+  color:#414958;
+  text-decoration:none;
+}
+
+a:visited {
+  color:#4E5869;
+  text-decoration:none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration:none;
+	  color:#FF0004;	cursor: pointer;
+
+}
+
+
+
+
+
+  .mainpic {
+height: auto;
+	  min-height: 650px;
+width: 100%;
+background: #000000
+  }
+
+
+	.print-tab-menu > li {
+    display: inline-block;
+    width: 20%;
+}
+
+  .print-tab-menu > li.active > a, .print-tab-menu > li.active > a:focus, .print-tab-menu > li.active > a:hover {
+  border:0px;
+  border-bottom: 4px solid red;
+	color: #D30003;
+
+}
+		
+		.print-tab-menu > li > a:hover {
+    border-color: transparent;
+			color: #D30003;
+}
+		
+		.nav > li > a:focus, .nav > li > a:hover {
+			background-color: transparent;
+		}
+		
+		
+		.print-tab-menu {
+  width: 100%;
+	overflow: hidden;
+	overflow-x: hidden;
+  white-space: nowrap;
+			border-bottom: 1px solid #ddd;
+}
+		
+	
+
+.tab-content {
+	padding: 30px 40px 30px 40px;
+}
+
+.searchform {
+	height: auto; background: #ffffff; opacity: 0.9;padding: 10px 0px 80px 0px; border-radius: 15px; font-size: 16px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Ff1, .Ff2, .Ff3 {
+	float: right; 
+}
+.Ff1 input, .Ff2 input, .Ff3 input, .Ff3 button {
+	border-radius: 4px;
+}
+.Ff1 {
+	 padding: 0px
+}
+
+.Ff3 {
+	padding-left: 0px;
+}
+
+.Main-G-D {
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0px auto;
+  }
+
+.Main-G-D-form {
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0px auto;
+	padding: 40px 0 80px 0; 
+  }
+.btn-danger {
+	font-size: 12px; height: 30px;
+}
+.btn-primary {
+	border:0px; 
+	background-color: #3096BB
+}
+.btn-danger{
+	background:#D8D8D8;
+	color: #58595B;
+	border:0px;
+}
+
+
+.btn-danger.active, .btn-danger:active, .open > .dropdown-toggle.btn-danger {
+	background-color: #D71920;
+	color: #ffffff;
+}
+
+.btn-danger.active.focus, .btn-danger.active:focus, .btn-danger.active:hover, .btn-danger:active.focus, .btn-danger:active:focus, .btn-danger:active:hover, .open > .dropdown-toggle.btn-danger.focus, .open > .dropdown-toggle.btn-danger:focus, .open > .dropdown-toggle.btn-danger:hover {
+    color: #fff;
+    background-color: #D71920;
+border: 0px;
+	box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+}
+
+.zz2 {
+	font-size: 12px;
+	
+}
+
+
+.btn-default {
+		border:0px;
+	font-size: 13px;
+	width: 85px;
+	margin: 5px 0 -10px 0;
+}
+
+.btn-default:hover {
+color: #EF0003;
+	background-color: transparent;
+}
+
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
+	background-color: #D71920;
+	color: #ffffff;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+	background-color: #D71920;
+	color: #ffffff;
+	border: 0px;
+	box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+}
+.SF-Menu1-box {
+position: absolute;
+top: 130px; left:52%; 
+	font-weight: normal;
+cursor: pointer; 
+	
+}
+
+.SF-Menu1-box-hidden {
+position: absolute;
+width: 400px;
+height: auto;
+left: 48%;
+top: 160px;
+z-index: 3;
+background: #FFFFFF;
+box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+border-radius: 14px;
+padding: 15px;
+	display: none;
+}
+.btflightM {
+	width: 90px;
+}
+.divbtflightM {
+	display: none;
+}
+.pnumber-adult {
+	float: right; width: 51%; height: 50px; margin-bottom: 10px; font-size: 13px; padding-top: 10px;
+}
+
+.pnumber-spiner {
+	float: right; width: 44%; height: 40px; margin-bottom: 10px; font-size: 13px; margin-right: 5%;
+}
+.spinerbt {
+	width: 35px; margin-top: -3px;
+	
+}
+.input-group .form-control:not(:first-child):not(:last-child), .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child) {
+    font-size: 17px; border-radius: 4px; padding: 0px;
+}
+
+
+.SFC-Menu1-box {
+position: absolute;
+top: 130px; right:30%; 
+	cursor: pointer; 
+	
+}
+
+.FC, .FN {
+	font-family: 'IRANSans';
+}
+.SFC-Menu1-box-hidden {
+position: absolute;
+width: 170px;
+height: auto;
+left: 56%;
+top: 170px;
+z-index: 3;
+background: #FFFFFF;
+box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+border-radius: 14px;
+padding: 15px;
+		display: none;
+
+}
+
+.SFC-Menu1-box-hidden a {
+  padding: 18px 14px 9px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:90%;
+  cursor: pointer;
+  outline: none;
+}
+
+.SFC-Menu1-box-hidden a:hover {
+  color: #EB0408;
+}
+
+.ol {
+	font-size: 16px;
+}
+.addition {cursor: pointer;width: 20px;}
+
+
+
+.news {
+	color: #5F5F5F;
+	line-height: 26px;
+}
+.newstext {
+	height: 250px; color: #5F5F5F; padding: 15px;
+}
+
+.newspic {
+	height: 220px;position: relative;
+}
+.newsmainbox {
+	height: auto; overflow: hidden; padding: 70px 0 90px 0; background: #2D2D2D;
+}
+.newsback1 {
+	background-color: #E4E5E6;
+}
+.newsback2 {
+	background-color: #F1F2F2;
+}
+.newstitle {
+	width: 100%; height: 40px; background: #000000; color: #E0E0E0; opacity: 0.8; position: absolute; bottom: 0px; font-family:iransans-B;  padding: 6px 15px; font-size: 14px;
+}
+.newsMbox {
+	padding: 0px;
+}
+
+
+
+@media only screen and (max-width:1600px) {
+	.SF-Menu1-box {
+		 left:57%; 
+			
+		}
+
+		.SFC-Menu1-box {
+			left:75%; 
+			   
+		   }
+
+		   .SFC-Menu1-box-hidden{
+			   left:69%;
+		   }
+}
+
+
+
+
+
+
+@media only screen and (max-width:1400px) {
+	.SF-Menu1-box {
+		 left:62%; 
+			
+		}
+
+		.SFC-Menu1-box {
+			left:82%; 
+			   
+		   }
+
+		   .SFC-Menu1-box-hidden{
+			left:77%;
+		}
+}
+
+
+
+
+@media only screen and (max-width:1230px) {
+	
+  .Main-G-D-form {
+    width: 96%; 
+    margin: 0px auto;
+  }
+	
+
+}
+
+
+
+
+
+@media only screen and (max-width:900px) {
+	
+	
+
+
+}
+
+
+
+@media only screen and (max-width:770px) {
+	.Ff1, .Ff2, .Ff3 {
+	padding: 0px;
+}
+
+	.Ff1 input, .Ff2 input, .Ff3 input, .Ff3 button {
+	height: 45px;
+}
+.Main-G-D-form {
+	padding-top: 10px
+  }	
+	
+	.SF-Menu1-box, .SFC-Menu1-box {
+top: 230px;  
+}
+	.SF-Menu1-box-hidden {
+
+top: 260px;
+
+}
+
+.SFC-Menu1-box-hidden {
+
+	top: 240px;
+	
+	}
+
+.SFC-Menu1-box {
+    left: 27%;
+}	
+
+	
+.addition { margin-bottom: 20px;}
+	
+}
+
+
+
+
+
+
+@media only screen and (max-width:550px) {
+	
+		.nav {padding-right: 0;	}
+.print-tab-menu>li {
+			padding-bottom: 15px;
+}
+		.print-tab-menu > li {
+    width: 100px;
+}
+	.print-tab-menu {
+	overflow-x: scroll;
+}
+	
+	.newsMbox {
+	width: 100%;padding: 0px;
+}
+	.tab-content {
+    padding: 10px 15px 20px 15px;
+}
+	.SF-Menu1-box {
+top: 225px;  left:67%
+	
+}
+	
+	.SFC-Menu1-box {
+top: 225px;  left:76%
+	
+}
+	.SF-Menu1-box-hidden {
+width: 96%;
+left: 2%;
+top: 140px;
+		padding: 20px;
+		padding-bottom: 80px;
+
+}
+
+
+.SFC-Menu1-box-hidden {
+	
+	top: 260px;
+			
+	}
+	.btn-danger {
+		height: 40px; 
+		width: 100px;
+	}
+	
+	.btflightM {
+	 float: right; margin-left: 5px;
+}
+	.divbtflightM {
+	width: 100%; height: 40px; display: block
+}
+	
+	.btflightPC {
+		display: none;
+	}
+	.btnbtn {
+		margin-top: 15px;
+	}
+	
+	
+}	
+
+@media only screen and (max-width:400px) {
+	.divbtflightM {
+    height: 90px;
+	}
+
+	
+	.btn-danger {
+    width: 48%;
+}
+	
+	
+	.SF-Menu1-box {
+    top: 170px;
+    left: 59%;
+}
+	
+	.SFC-Menu1-box-hidden {
+
+    left: 25%;
+    top: 220px;
+	}
+	
+.SFC-Menu1-box {
+    top: 175px;
+    left: 25%;
+}
+	
+	
+.btn-default {
+    width: 31.5%;
+    margin: 20px 0 -10px 0;
+    height: 40px;
+}	
+	
+	
+	.btflightM {
+    margin-left: 2%;
+}
+}
+
